@@ -1,9 +1,6 @@
 # node-performace
 
-little playground for node
-
-to run benchmarks [linux | mac]
-`ab -c 50 -n 500 localhost:3000/`
+Little playground for node.js clustering and worker threads
 
 ## clustering
 
@@ -11,8 +8,13 @@ to run benchmarks [linux | mac]
 
 Playground in `manual-clustering.js`
 
+to run benchmarks [linux | mac]
+`ab -c 50 -n 500 localhost:3000/`
+
 ### automated clustering
 
-This part is using pm2 - [https://github.com/Unitech/pm2]
+Using pm2 - [https://github.com/Unitech/pm2]
 
 ## worker threads
+
+Playground in `worker-threads.js`

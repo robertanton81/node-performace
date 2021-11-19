@@ -3,8 +3,8 @@ process.env.UV_THREADPOOL_SIZE = 1;
 const cluster = require('cluster');
 const crypto = require('crypto');
 const express = require('express');
-const app = express();
 
+const app = express();
 /**
  * if executed in master mode
  * spin another execution of index.js in child mode
